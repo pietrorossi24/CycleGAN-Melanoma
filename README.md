@@ -1,5 +1,7 @@
 # Generation of Syntetic Images of Melanoma and Benign Nevi with Generative Adversarial Networks
 
+Thesis available in https://webthesis.biblio.polito.it/38156/
+
 Melanoma is one of the most serious forms of skin cancer, and its incidence is on the rise. Since the risk of mortality increases in the absence of an early diagnosis, monitoring the evolution of suspicious moles over time is essential. In this context, Artificial Intelligence techniques can offer a significant contribution. This thesis investigates the use of Generative Adversarial Networks (GANs) for the creation of synthetic dermoscopic images of melanomas and benign nevi, introducing innovative elements compared to existing approaches in the literature.
 
 After comparing several generative models, the choice fell on **CycleGAN**, which allows for the transformation of a benign nevus image into its potential melanocytic evolution and, conversely, the reconstruction of the plausible original mole from the image of a real melanoma.
