@@ -7,7 +7,3 @@ After comparing several generative models, the choice fell on **CycleGAN**, whic
 The quality of the generated images was assessed through a validation system based on pre-trained external classifiers (including the winner of the ISIC 2020 Challenge) and the primary GAN metrics (**FID, KID, IS, PRDC**), also implemented with features extracted from Inception-v3 and ResNet50 retrained on dermoscopic images. Furthermore, various dataset subsampling methods were tested to evaluate how the data selection strategy influenced the training phase. Following performance analysis, the CycleGAN demonstrated the ability to generate high-quality synthetic images for both classes, convincingly simulating both the evolution of the nevus and the reconstruction of the original mole. Among the different methods, **representative cluster sampling** produced more realistic and coherent images, albeit with a slight reduction in variability compared to other methods.
 
 The proposed approach, which integrates accurate dataset construction, an advanced validation system, and a comparison of sampling strategies, represents an innovative contribution to the field of skin lesion image generation and analysis, paving the way for future developments toward more precise and clinically reliable models.
-
-* **Representative cluster sampling:** Campionamento a grappolo (cluster) rappresentativo.
-
-**Would you like me to refine the tone to be more specific to a certain journal's style, or do you need help translating the bibliography as well?**
