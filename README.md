@@ -1,1 +1,13 @@
-# SKCM-Dataset
+# Generation of Syntetic Images of Melanoma and Benign Nevi with Generative Adversarial Networks
+
+Melanoma is one of the most serious forms of skin cancer, and its incidence is on the rise. Since the risk of mortality increases in the absence of an early diagnosis, monitoring the evolution of suspicious moles over time is essential. In this context, Artificial Intelligence techniques can offer a significant contribution. This thesis investigates the use of Generative Adversarial Networks (GANs) for the creation of synthetic dermoscopic images of melanomas and benign nevi, introducing innovative elements compared to existing approaches in the literature.
+
+After comparing several generative models, the choice fell on **CycleGAN**, which allows for the transformation of a benign nevus image into its potential melanocytic evolution and, conversely, the reconstruction of the plausible original mole from the image of a real melanoma.
+
+The quality of the generated images was assessed through a validation system based on pre-trained external classifiers (including the winner of the ISIC 2020 Challenge) and the primary GAN metrics (**FID, KID, IS, PRDC**), also implemented with features extracted from Inception-v3 and ResNet50 retrained on dermoscopic images. Furthermore, various dataset subsampling methods were tested to evaluate how the data selection strategy influenced the training phase. Following performance analysis, the CycleGAN demonstrated the ability to generate high-quality synthetic images for both classes, convincingly simulating both the evolution of the nevus and the reconstruction of the original mole. Among the different methods, **representative cluster sampling** produced more realistic and coherent images, albeit with a slight reduction in variability compared to other methods.
+
+The proposed approach, which integrates accurate dataset construction, an advanced validation system, and a comparison of sampling strategies, represents an innovative contribution to the field of skin lesion image generation and analysis, paving the way for future developments toward more precise and clinically reliable models.
+
+* **Representative cluster sampling:** Campionamento a grappolo (cluster) rappresentativo.
+
+**Would you like me to refine the tone to be more specific to a certain journal's style, or do you need help translating the bibliography as well?**
